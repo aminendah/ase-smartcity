@@ -4,9 +4,46 @@
   <eClassifiers xsi:type="ecore:EClass" name="DataProvider">
     <eStructuralFeatures xsi:type="ecore:EReference" name="sources" lowerBound="1"
         upperBound="-1" eType="#//DataSource" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="DataSource"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Metadata"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Data"/>
-  <eClassifiers xsi:type="ecore:EEnum" name="DataType"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataSource">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dataCollected" upperBound="-1"
+        eType="#//Data"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="updateFrequency" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="processor" lowerBound="1"
+        eType="#//DataProcessor"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Metadata">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//DataType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Data">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="metadataInfo" upperBound="-1"
+        eType="#//Metadata"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="information" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//DataType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="createdAt" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="DataType">
+    <eLiterals name="String" literal="String"/>
+    <eLiterals name="Integer" value="1" literal="Integer"/>
+    <eLiterals name="Float" value="2" literal="Float"/>
+    <eLiterals name="Date" value="3" literal="Date"/>
+    <eLiterals name="Boolean" value="5" literal="Boolean"/>
+    <eLiterals name="Binary" value="6" literal="Binary"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Service" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="WebService" eSuperTypes="#//Service"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FTPService" eSuperTypes="#//Service"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataExporter" abstract="true" interface="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataProcessor">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source_endpoint" lowerBound="1"
+        eType="#//Service"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dataForConsumption" lowerBound="1"
+        eType="#//DataExporter"/>
+  </eClassifiers>
 </ecore:EPackage>

@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_4x9pQL4XEeW2S4GSmltVWQ" type="EcoreTools" name="SmartCity.ecorediag" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_4x9pQL4XEeW2S4GSmltVWQ" type="EcoreTools" name="SmartCity.ecorediag" measurementUnit="Pixel">
   <children xmi:type="notation:Node" xmi:id="_41W7gL4XEeW2S4GSmltVWQ" type="1001">
     <children xmi:type="notation:Node" xmi:id="_41rroL4XEeW2S4GSmltVWQ" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_41tg0L4XEeW2S4GSmltVWQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_qrd2YL4cEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//DataProvider/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qrd2Yb4cEeW2S4GSmltVWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_tfs4kL4cEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//DataProvider/description"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tfs4kb4cEeW2S4GSmltVWQ"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_41tg0b4XEeW2S4GSmltVWQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_41tg0r4XEeW2S4GSmltVWQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_41tg074XEeW2S4GSmltVWQ"/>
@@ -14,11 +22,23 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_41W7gb4XEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="SmartCity.ecore#//DataProvider"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_41W7gr4XEeW2S4GSmltVWQ" x="126" y="63"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_41W7gr4XEeW2S4GSmltVWQ" x="81" y="27"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_42FUQL4XEeW2S4GSmltVWQ" type="1001">
     <children xmi:type="notation:Node" xmi:id="_42F7UL4XEeW2S4GSmltVWQ" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_42F7Ub4XEeW2S4GSmltVWQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_KkHC8L4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//DataSource/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KkHC8b4dEeW2S4GSmltVWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MLgekL4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//DataSource/description"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MLgekb4dEeW2S4GSmltVWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_QM-I4L4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//DataSource/updateFrequency"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QM-I4b4dEeW2S4GSmltVWQ"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_42F7Ur4XEeW2S4GSmltVWQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_42F7U74XEeW2S4GSmltVWQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_42F7VL4XEeW2S4GSmltVWQ"/>
@@ -30,11 +50,23 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_42FUQb4XEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="SmartCity.ecore#//DataSource"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42FUQr4XEeW2S4GSmltVWQ" x="216" y="162"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42FUQr4XEeW2S4GSmltVWQ" x="270" y="207"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_42F7Wb4XEeW2S4GSmltVWQ" type="1001">
     <children xmi:type="notation:Node" xmi:id="_42GiYL4XEeW2S4GSmltVWQ" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_42GiYb4XEeW2S4GSmltVWQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_gqiHgL4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//Metadata/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gqiHgb4dEeW2S4GSmltVWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_qk3CoL4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//Metadata/value"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qk3Cob4dEeW2S4GSmltVWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iHChwL4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//Metadata/type"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iHChwb4dEeW2S4GSmltVWQ"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_42GiYr4XEeW2S4GSmltVWQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_42GiY74XEeW2S4GSmltVWQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_42GiZL4XEeW2S4GSmltVWQ"/>
@@ -46,11 +78,23 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_42F7Wr4XEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="SmartCity.ecore#//Metadata"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42F7W74XEeW2S4GSmltVWQ" x="54" y="189"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42F7W74XEeW2S4GSmltVWQ" x="54" y="153"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_42Giab4XEeW2S4GSmltVWQ" type="1001">
     <children xmi:type="notation:Node" xmi:id="_42HJcL4XEeW2S4GSmltVWQ" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_42HJcb4XEeW2S4GSmltVWQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_VhXasL4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//Data/information"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VhXasb4dEeW2S4GSmltVWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_YE5HYL4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//Data/type"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YE5HYb4dEeW2S4GSmltVWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Zs-fgL4dEeW2S4GSmltVWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="SmartCity.ecore#//Data/createdAt"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Zs-fgb4dEeW2S4GSmltVWQ"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_42HJcr4XEeW2S4GSmltVWQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_42HJc74XEeW2S4GSmltVWQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_42HJdL4XEeW2S4GSmltVWQ"/>
@@ -62,7 +106,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_42Giar4XEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EClass" href="SmartCity.ecore#//Data"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42Gia74XEeW2S4GSmltVWQ" x="225" y="261"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42Gia74XEeW2S4GSmltVWQ" x="63" y="333"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_42IXkL4XEeW2S4GSmltVWQ" type="1005">
     <children xmi:type="notation:Node" xmi:id="_42I-oL4XEeW2S4GSmltVWQ" type="4010"/>
@@ -73,7 +117,87 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_42IXkb4XEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
     <element xmi:type="ecore:EEnum" href="SmartCity.ecore#//DataType"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42IXkr4XEeW2S4GSmltVWQ" x="369" y="144"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42IXkr4XEeW2S4GSmltVWQ" x="756" y="225"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_7skbYL4mEeW2S4GSmltVWQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_7slpgL4mEeW2S4GSmltVWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_7slpgb4mEeW2S4GSmltVWQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7slpgr4mEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7slpg74mEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7slphL4mEeW2S4GSmltVWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7slphb4mEeW2S4GSmltVWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7slphr4mEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7slph74mEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7slpiL4mEeW2S4GSmltVWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_7skbYb4mEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="SmartCity.ecore#//Service"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7skbYr4mEeW2S4GSmltVWQ" x="549" y="36"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_8jmKAL4mEeW2S4GSmltVWQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_8jmxEL4mEeW2S4GSmltVWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_8jmxEb4mEeW2S4GSmltVWQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_8jmxEr4mEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8jmxE74mEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8jmxFL4mEeW2S4GSmltVWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_8jmxFb4mEeW2S4GSmltVWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_8jmxFr4mEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8jmxF74mEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8jmxGL4mEeW2S4GSmltVWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_8jmKAb4mEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="SmartCity.ecore#//WebService"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8jmKAr4mEeW2S4GSmltVWQ" x="810" y="99"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_WlZfAL4nEeW2S4GSmltVWQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_WlaGEL4nEeW2S4GSmltVWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_WlaGEb4nEeW2S4GSmltVWQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_WlaGEr4nEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WlaGE74nEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WlaGFL4nEeW2S4GSmltVWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_WlatIL4nEeW2S4GSmltVWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_WlatIb4nEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WlatIr4nEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WlatI74nEeW2S4GSmltVWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_WlZfAb4nEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="SmartCity.ecore#//FTPService"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WlZfAr4nEeW2S4GSmltVWQ" x="819" y="36"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_hIR9AL4pEeW2S4GSmltVWQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_hISkEL4pEeW2S4GSmltVWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_hISkEb4pEeW2S4GSmltVWQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_hISkEr4pEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hISkE74pEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hISkFL4pEeW2S4GSmltVWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_hISkFb4pEeW2S4GSmltVWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_hISkFr4pEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hISkF74pEeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hISkGL4pEeW2S4GSmltVWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_hIR9Ab4pEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="SmartCity.ecore#//DataExporter"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hIR9Ar4pEeW2S4GSmltVWQ" x="540" y="189"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_U-s7EL40EeW2S4GSmltVWQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_U-tiIL40EeW2S4GSmltVWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_U-tiIb40EeW2S4GSmltVWQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_U-tiIr40EeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_U-tiI740EeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_U-tiJL40EeW2S4GSmltVWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_U-tiJb40EeW2S4GSmltVWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_U-tiJr40EeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_U-tiJ740EeW2S4GSmltVWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_U-tiKL40EeW2S4GSmltVWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_U-s7Eb40EeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="SmartCity.ecore#//DataProcessor"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U-s7Er40EeW2S4GSmltVWQ" x="405" y="108"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_4x9pQb4XEeW2S4GSmltVWQ"/>
   <element xmi:type="ecore:EPackage" href="SmartCity.ecore#/"/>
@@ -90,5 +214,84 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_42N3I74XEeW2S4GSmltVWQ" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_48oBIL4XEeW2S4GSmltVWQ" id="(0.5,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_48oBIb4XEeW2S4GSmltVWQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_6IvSIL4bEeW2S4GSmltVWQ" type="3002" source="_42FUQL4XEeW2S4GSmltVWQ" target="_42Giab4XEeW2S4GSmltVWQ">
+    <children xmi:type="notation:Node" xmi:id="_6Iv5ML4bEeW2S4GSmltVWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6Iv5Mb4bEeW2S4GSmltVWQ" x="-27" y="-29"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_6Iv5Mr4bEeW2S4GSmltVWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6Iv5M74bEeW2S4GSmltVWQ" x="-7" y="16"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_6IvSIb4bEeW2S4GSmltVWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6IvSIr4bEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="SmartCity.ecore#//DataSource/dataCollected"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6IvSI74bEeW2S4GSmltVWQ" points="[2, -9, 2, -9]$[2, -9, 2, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6IyVcL4bEeW2S4GSmltVWQ" id="(0.5196078431372549,0.23809523809523808)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_FUA3wL4cEeW2S4GSmltVWQ" type="3002" source="_42Giab4XEeW2S4GSmltVWQ" target="_42F7Wb4XEeW2S4GSmltVWQ">
+    <children xmi:type="notation:Node" xmi:id="_FUBe0L4cEeW2S4GSmltVWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FUBe0b4cEeW2S4GSmltVWQ" x="-14" y="-30"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_FUBe0r4cEeW2S4GSmltVWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FUBe074cEeW2S4GSmltVWQ" x="-57" y="-14"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_FUA3wb4cEeW2S4GSmltVWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FUA3wr4cEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="SmartCity.ecore#//Data/metadataInfo"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FUA3w74cEeW2S4GSmltVWQ" points="[0, 20, 0, 20]$[0, 20, 0, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_AToGEL4nEeW2S4GSmltVWQ" type="3003" source="_8jmKAL4mEeW2S4GSmltVWQ" target="_7skbYL4mEeW2S4GSmltVWQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_AToGEb4nEeW2S4GSmltVWQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AToGEr4nEeW2S4GSmltVWQ" fontName=".Helvetica Neue DeskInterface"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AToGE74nEeW2S4GSmltVWQ" points="[-50, 1, 202, 64]$[-77, 1, 175, 64]$[-77, -56, 175, 7]$[-202, -56, 50, 7]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Jkw6QL4nEeW2S4GSmltVWQ" type="3002" source="_U-s7EL40EeW2S4GSmltVWQ" target="_7skbYL4mEeW2S4GSmltVWQ">
+    <children xmi:type="notation:Node" xmi:id="_JkxhUL4nEeW2S4GSmltVWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JkxhUb4nEeW2S4GSmltVWQ" x="-41" y="-25"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_JkxhUr4nEeW2S4GSmltVWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JkxhU74nEeW2S4GSmltVWQ" x="-44" y="-7"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Jkw6Qb4nEeW2S4GSmltVWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Jkw6Qr4nEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="SmartCity.ecore#//DataProcessor/source_endpoint"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jkw6Q74nEeW2S4GSmltVWQ" points="[16, -23, -84, 88]$[50, -112, -50, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JkzWgL4nEeW2S4GSmltVWQ" id="(0.47058823529411764,0.07142857142857142)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o8kXsL40EeW2S4GSmltVWQ" id="(0.0196078431372549,0.5238095238095238)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Y8-aYL4nEeW2S4GSmltVWQ" type="3003" source="_WlZfAL4nEeW2S4GSmltVWQ" target="_7skbYL4mEeW2S4GSmltVWQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Y8-aYb4nEeW2S4GSmltVWQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Y8-aYr4nEeW2S4GSmltVWQ" fontName=".Helvetica Neue DeskInterface"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y8-aY74nEeW2S4GSmltVWQ" points="[-16, 12, 158, 19]$[-25, 12, 149, 19]$[-25, -9, 149, -2]$[-168, -9, 6, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y8_ogL4nEeW2S4GSmltVWQ" id="(0.16666666666666666,0.23809523809523808)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y8_ogb4nEeW2S4GSmltVWQ" id="(0.9411764705882353,0.2857142857142857)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_NJQicL4sEeW2S4GSmltVWQ" type="3002" source="_U-s7EL40EeW2S4GSmltVWQ" target="_hIR9AL4pEeW2S4GSmltVWQ">
+    <children xmi:type="notation:Node" xmi:id="_NJRJgL4sEeW2S4GSmltVWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NJRJgb4sEeW2S4GSmltVWQ" x="-11" y="-43"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_NJRJgr4sEeW2S4GSmltVWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NJRJg74sEeW2S4GSmltVWQ" x="-29" y="12"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_NJQicb4sEeW2S4GSmltVWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NJQicr4sEeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="SmartCity.ecore#//DataProcessor/dataForConsumption"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NJQic74sEeW2S4GSmltVWQ" points="[50, 20, -118, -56]$[176, 56, 8, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lZG4AL40EeW2S4GSmltVWQ" id="(0.9607843137254902,0.5476190476190477)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_als_0L40EeW2S4GSmltVWQ" type="3002" source="_42FUQL4XEeW2S4GSmltVWQ" target="_U-s7EL40EeW2S4GSmltVWQ">
+    <children xmi:type="notation:Node" xmi:id="_altm4L40EeW2S4GSmltVWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_altm4b40EeW2S4GSmltVWQ" x="-21" y="-24"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_altm4r40EeW2S4GSmltVWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_altm4740EeW2S4GSmltVWQ" x="-28" y="8"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_als_0b40EeW2S4GSmltVWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_als_0r40EeW2S4GSmltVWQ" fontColor="4210752" fontName=".Helvetica Neue DeskInterface" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="SmartCity.ecore#//DataSource/processor"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_als_0740EeW2S4GSmltVWQ" points="[7, -12, -56, 79]$[13, -83, -50, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_alvcEL40EeW2S4GSmltVWQ" id="(0.8435374149659864,0.16049382716049382)"/>
   </edges>
 </notation:Diagram>
